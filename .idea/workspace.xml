@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fba92875-5fc7-4e86-9c2d-3de77ae5870b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java" afterPath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" afterPath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,28 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ElementCollectionInitializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ElementCollection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="478">
+              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,8 +28,8 @@
       <file leaf-file-name="ElementCollectionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+            <state relative-caret-position="1770">
+              <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,81 +46,6 @@
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElementCollectionInitializerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/Element.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-              <folding>
-                <element signature="e#1803#1804#0" expanded="true" />
-                <element signature="e#1830#1831#0" expanded="true" />
-                <element signature="e#1867#1868#0" expanded="true" />
-                <element signature="e#1900#1901#0" expanded="true" />
-                <element signature="e#1938#1939#0" expanded="true" />
-                <element signature="e#1972#1973#0" expanded="true" />
-                <element signature="e#2003#2004#0" expanded="true" />
-                <element signature="e#2030#2031#0" expanded="true" />
-                <element signature="e#2065#2066#0" expanded="true" />
-                <element signature="e#2096#2097#0" expanded="true" />
-                <element signature="e#2128#2129#0" expanded="true" />
-                <element signature="e#2156#2157#0" expanded="true" />
-                <element signature="e#2190#2191#0" expanded="true" />
-                <element signature="e#2220#2221#0" expanded="true" />
-                <element signature="e#2260#2261#0" expanded="true" />
-                <element signature="e#2296#2297#0" expanded="true" />
-                <element signature="e#2327#2328#0" expanded="true" />
-                <element signature="e#2354#2355#0" expanded="true" />
-                <element signature="e#2391#2392#0" expanded="true" />
-                <element signature="e#2424#2425#0" expanded="true" />
-                <element signature="e#2459#2460#0" expanded="true" />
-                <element signature="e#2490#2491#0" expanded="true" />
-                <element signature="e#2520#2521#0" expanded="true" />
-                <element signature="e#2549#2550#0" expanded="true" />
-                <element signature="e#2579#2580#0" expanded="true" />
-                <element signature="e#2608#2609#0" expanded="true" />
-                <element signature="e#2640#2641#0" expanded="true" />
-                <element signature="e#2668#2669#0" expanded="true" />
-                <element signature="e#2701#2702#0" expanded="true" />
-                <element signature="e#2730#2731#0" expanded="true" />
-                <element signature="e#2769#2770#0" expanded="true" />
-                <element signature="e#2804#2805#0" expanded="true" />
-                <element signature="e#2838#2839#0" expanded="true" />
-                <element signature="e#2868#2869#0" expanded="true" />
-                <element signature="e#2901#2902#0" expanded="true" />
-                <element signature="e#2930#2931#0" expanded="true" />
-                <element signature="e#2958#2959#0" expanded="true" />
-                <element signature="e#2985#2986#0" expanded="true" />
-                <element signature="e#3013#3014#0" expanded="true" />
-                <element signature="e#3040#3041#0" expanded="true" />
-                <element signature="e#3085#3086#0" expanded="true" />
-                <element signature="e#3114#3115#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="periodic_table.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/periodic_table.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17008">
-              <caret line="3484" column="1" lean-forward="false" selection-start-line="3484" selection-start-column="1" selection-end-line="3484" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -168,9 +72,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/periodic_table.json" />
         <option value="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" />
-        <option value="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" />
+        <option value="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" />
       </list>
     </option>
   </component>
@@ -335,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ElementCollectionTest.findByAtomicNumber">
+  <component name="RunManager" selected="JUnit.ElementCollectionTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -356,31 +260,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="ElementCollectionInitializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="parsing_json.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="assessment3" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="parsing_json" />
-      <option name="MAIN_CLASS_NAME" value="parsing_json.ElementCollectionInitializerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="ElementCollectionInitializerTest.generate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -407,7 +286,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ElementCollectionInitializerTest.generateElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElementCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="parsing_json.*" />
@@ -418,9 +297,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="parsing_json" />
-      <option name="MAIN_CLASS_NAME" value="parsing_json.ElementCollectionInitializerTest" />
-      <option name="METHOD_NAME" value="generateElement" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="parsing_json.ElementCollectionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -457,7 +336,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElementCollectionTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="parsing_json.*" />
@@ -468,9 +347,34 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="parsing_json" />
-      <option name="MAIN_CLASS_NAME" value="parsing_json.ElementTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="parsing_json.ElementCollectionTest" />
+      <option name="METHOD_NAME" value="findByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ElementCollectionTest.where" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="parsing_json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="assessment3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="parsing_json" />
+      <option name="MAIN_CLASS_NAME" value="parsing_json.ElementCollectionTest" />
+      <option name="METHOD_NAME" value="where" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -543,19 +447,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ElementTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest.generate" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest.generateElement" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest.findByAtomicNumber" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest.generate" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest.findByAtomicNumber" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest.findByName" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest.where" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest.findByAtomicNumber" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest.generate" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest.generateElement" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ElementTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest.where" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest.findByName" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest.findByAtomicNumber" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest.generate" />
       </list>
     </recent_temporary>
   </component>
@@ -572,44 +476,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521465877525</updated>
-      <workItem from="1521465881228" duration="23734000" />
+      <workItem from="1521465881228" duration="25864000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ElementCollectionInitializerTest - 2018.03.19 at 16h 22m 18s.xml">
-      <configuration name="ElementCollectionInitializerTest" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest - 2018.03.19 at 17h 00m 31s.xml">
+      <configuration name="ElementCollectionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionInitializerTest - 2018.03.19 at 16h 39m 02s.xml">
-      <configuration name="ElementCollectionInitializerTest" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest - 2018.03.19 at 17h 02m 52s.xml">
+      <configuration name="ElementCollectionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionInitializerTest_generate - 2018.03.19 at 15h 14m 39s.xml">
-      <configuration name="ElementCollectionInitializerTest.generate" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest - 2018.03.19 at 17h 03m 15s.xml">
+      <configuration name="ElementCollectionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionInitializerTest_generate - 2018.03.19 at 16h 20m 25s.xml">
-      <configuration name="ElementCollectionInitializerTest.generate" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest_findByAtomicNumber - 2018.03.19 at 17h 04m 07s.xml">
+      <configuration name="ElementCollectionTest.findByAtomicNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionInitializerTest_generate - 2018.03.19 at 16h 20m 34s.xml">
-      <configuration name="ElementCollectionInitializerTest.generate" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest_findByAtomicNumber - 2018.03.19 at 17h 05m 18s.xml">
+      <configuration name="ElementCollectionTest.findByAtomicNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionInitializerTest_generate - 2018.03.19 at 16h 20m 42s.xml">
-      <configuration name="ElementCollectionInitializerTest.generate" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest_findByAtomicNumber - 2018.03.19 at 17h 05m 46s.xml">
+      <configuration name="ElementCollectionTest.findByAtomicNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionInitializerTest_generate - 2018.03.19 at 16h 43m 51s.xml">
-      <configuration name="ElementCollectionInitializerTest.generate" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest_findByAtomicNumber - 2018.03.19 at 17h 06m 10s.xml">
+      <configuration name="ElementCollectionTest.findByAtomicNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionInitializerTest_generateElement - 2018.03.19 at 15h 08m 07s.xml">
-      <configuration name="ElementCollectionInitializerTest.generateElement" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest_findByAtomicNumber - 2018.03.19 at 17h 12m 08s.xml">
+      <configuration name="ElementCollectionTest.findByAtomicNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionInitializerTest_generateElement - 2018.03.19 at 15h 08m 42s.xml">
-      <configuration name="ElementCollectionInitializerTest.generateElement" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest_findByName - 2018.03.19 at 17h 13m 44s.xml">
+      <configuration name="ElementCollectionTest.findByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionInitializerTest_generateElement - 2018.03.19 at 15h 13m 11s.xml">
-      <configuration name="ElementCollectionInitializerTest.generateElement" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest_where - 2018.03.19 at 17h 19m 08s.xml">
+      <configuration name="ElementCollectionTest.where" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23734000" />
+    <option name="totallyTimeSpent" value="25864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-307" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -834,17 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/regex/Pattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -915,16 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -935,22 +818,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        <state relative-caret-position="270">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+        <state relative-caret-position="1770">
+          <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

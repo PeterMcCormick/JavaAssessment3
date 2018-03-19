@@ -1,33 +1,35 @@
 package parsing_json;
 
-import java.io.IOException;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.regex.Pattern;
+
 
 public class ElementCollection extends ArrayList{
 
+    private ElementCollection elementCollection;
 
-    public ElementCollection getElementCollection() {
-        return ElementCollectionInitializer.generate();
+
+    private ElementCollection getElementCollection() {
+        elementCollection = ElementCollectionInitializer.generate();
+        return this.elementCollection;
     }
 
     Element element = new Element();
 
     public Element findByAtomicNumber(int atomic_number) {
-        ElementCollection elementCollection = new ElementCollection();
-        for(int i = 0; i < elementCollection.size(); i++) {
-            element = (Element)elementCollection.get(i);
-            if (elementCollection.element.getNumber() == atomic_number);
-            return element;
-        }
+        getElementCollection();
 
-        return null;
+        element = (Element)elementCollection.get(atomic_number-1);
+
+
+        return element;
     }
 
     public Element findByName(String name) {
-
+        getElementCollection();
+        for(Object e: elementCollection){
+            if (element.getName() != null && element.getName().contains(name));
+            return (Element)e;
+        }
         return null;
     }
 
