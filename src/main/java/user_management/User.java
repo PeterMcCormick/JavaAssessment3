@@ -10,43 +10,11 @@ public class User {
 //    The constructor that takes password as a string should create a new Password object
 //    and set the user's password to that object.
 
-    private String email;
+
     private int id;
     private String name;
+    private String email;
     private Password password;
-
-
-    public User(int id , String name, String email, Password password) {
-
-        this.email = email;
-        this.id = id;
-        this.name = name;
-        this.password = password;
-    }
-
-    public User(int id , String name, String email, String password) {
-        Password password1 = new Password(password);
-        this.email = email;
-        this.id = id;
-        this.name = name;
-        this.password = password1;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public Password getPassword() {
-        return password;
-    }
 
     public void setEmail(String email) {
         this.email = email;
@@ -61,17 +29,48 @@ public class User {
     }
 
     public void setPassword(String password) {
-        Password password1 = new Password(password);
-        this.password = password1;
+        this.password = new Password(password);
     }
 
     public void setPassword(Password password) {
         this.password = password;
     }
 
+    public User(int id , String name, String email, Password password) {
+
+        this.email = email;
+        this.id = id;
+        this.name = name;
+        this.password = password;
+    }
+
+    public User(int id , String name, String email, String password) {
+        this.email = email;
+        this.id = id;
+        this.name = name;
+        this.password = new Password(password);
+
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int getId() {
+        return this.id;
+    }
+
+    public String getEmail() {
+        return this.email;
+    }
+
+    public Password getPassword() {
+        return this.password;
+    }
+
     @Override
     public String toString() {
-        return null;
+        return  name + " - " + email;
     }
 
     @Override
