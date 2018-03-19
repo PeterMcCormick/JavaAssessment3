@@ -20,6 +20,7 @@ public class Element {
     private String phase;
     private String source;
     private String spectral_img;
+    private String summary;
     private String symbol;
     private Integer xpos;
     private Integer ypos;
@@ -27,7 +28,7 @@ public class Element {
 
     public Element(String name, String appearance, Double atomic_mass, Double boil, String category, String color,
                    Double density, String discovered_by, Double melt, Double molar_heat, String named_by,
-                   Integer number, Integer period, String phase, String source, String spectral_img, String symbol,
+                   Integer number, Integer period, String phase, String source, String spectral_img, String summary, String symbol,
                    Integer xpos, Integer ypos, ArrayList<Integer> shells) {
         this.name = name;
         this.appearance = appearance;
@@ -45,6 +46,7 @@ public class Element {
         this.phase = phase;
         this.source = source;
         this.spectral_img = spectral_img;
+        this.summary = summary;
         this.symbol = symbol;
         this.xpos = xpos;
         this.ypos = ypos;
@@ -83,13 +85,13 @@ public class Element {
 
     public String getSpectral_img() {return spectral_img;}
 
-    public String getSummary() {}
+    public String getSummary() {return summary;}
 
-    public String getSymbol() {}
+    public String getSymbol() {return symbol;}
 
-    public Integer getXpos() {}
+    public Integer getXpos() {return xpos;}
 
-    public Integer getYpos() {}
+    public Integer getYpos() {return ypos;}
 
-    public Integer getShells() {}
+    public ArrayList<Integer> getShells() {return shells;}
 }
