@@ -6,30 +6,31 @@ public class Element {
 
     private String name;
     private String appearance;
-    private Double atomic_mass;
-    private Double boil;
+    private double atomic_mass;
+    private double boil;
     private String category;
     private String color;
-    private Double density;
+    private double density;
     private String discovered_by;
-    private Double melt;
-    private Double molar_heat;
+    private double melt;
+    private double molar_heat;
     private String named_by;
-    private Integer number;
-    private Integer period;
+    private int number;
+    private int period;
     private String phase;
     private String source;
     private String spectral_img;
     private String summary;
     private String symbol;
-    private Integer xpos;
-    private Integer ypos;
+    private int xpos;
+    private int ypos;
     private ArrayList<Integer> shells;
 
-    public Element(String name, String appearance, Double atomic_mass, Double boil, String category, String color,
-                   Double density, String discovered_by, Double melt, Double molar_heat, String named_by,
-                   Integer number, Integer period, String phase, String source, String spectral_img, String summary, String symbol,
-                   Integer xpos, Integer ypos, ArrayList<Integer> shells) {
+
+    public Element(String name, String appearance, double atomic_mass, double boil, String category, String color,
+                   double density, String discovered_by, double melt, double molar_heat, String named_by,
+                   int number, int period, String phase, String source, String spectral_img, String summary,
+                   String symbol, int xpos, int ypos, ArrayList<Integer> shells) {
         this.name = name;
         this.appearance = appearance;
         this.atomic_mass = atomic_mass;
@@ -53,45 +54,115 @@ public class Element {
         this.shells = shells;
     }
 
-    public String getName() {return name;}
+    public String getName() {
+        return name;
+    }
 
-    public String getAppearance() {return appearance;}
+    public String getAppearance() {
+        return appearance;
+    }
 
-    public Double getAtomic_mass() {return atomic_mass;}
+    public double getAtomic_mass() {
+        return atomic_mass;
+    }
 
-    public Double getBoil() {return boil;}
+    public double getBoil() {
+        return boil;
+    }
 
-    public String getCategory() {return category;}
+    public String getCategory() {
+        return category;
+    }
 
-    public String getColor() {return color;}
+    public String getColor() {
+        return color;
+    }
 
-    public Double getDensity() {return density;}
+    public double getDensity() {
+        return density;
+    }
 
-    public String getDiscovered_by() {return discovered_by;}
+    public String getDiscovered_by() {
+        return discovered_by;
+    }
 
-    public Double getMelt() {return melt;}
+    public double getMelt() {
+        return melt;
+    }
 
-    public Double getMolar_heat() {return molar_heat;}
+    public double getMolar_heat() {
+        return molar_heat;
+    }
 
-    public String getNamed_by() {return named_by;}
+    public String getNamed_by() {
+        return named_by;
+    }
 
-    public Integer getNumber() {return number;}
+    public int getNumber() {
+        return number;
+    }
 
-    public Integer getPeriod() {return period;}
+    public int getPeriod() {
+        return period;
+    }
 
-    public String getPhase() {return phase;}
+    public String getPhase() {
+        return phase;
+    }
 
-    public String getSource() {return source;}
+    public String getSource() {
+        return source;
+    }
 
-    public String getSpectral_img() {return spectral_img;}
+    public String getSpectral_img() {
+        return spectral_img;
+    }
 
-    public String getSummary() {return summary;}
+    public String getSummary() {
+        return summary;
+    }
 
-    public String getSymbol() {return symbol;}
+    public String getSymbol() {
+        return symbol;
+    }
 
-    public Integer getXpos() {return xpos;}
+    public int getXpos() {
+        return xpos;
+    }
 
-    public Integer getYpos() {return ypos;}
+    public int getYpos() {
+        return ypos;
+    }
 
-    public ArrayList<Integer> getShells() {return shells;}
+    public ArrayList<Integer> getShells() {
+        return shells;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Element{" +
+                "name='" + name + '\'' +
+                ", appearance='" + appearance + '\'' +
+                ", atomic_mass=" + atomic_mass +
+                ", boil=" + boil +
+                ", category='" + category + '\'' +
+                ", color='" + color + '\'' +
+                ", density=" + density +
+                ", discovered_by='" + discovered_by + '\'' +
+                ", melt=" + melt +
+                ", molar_heat=" + molar_heat +
+                ", named_by='" + named_by + '\'' +
+                ", number=" + number +
+                ", period=" + period +
+                ", phase='" + phase + '\'' +
+                ", source='" + source + '\'' +
+                ", spectral_img='" + spectral_img + '\'' +
+                ", summary='" + summary + '\'' +
+                ", symbol='" + symbol + '\'' +
+                ", xpos=" + xpos +
+                ", ypos=" + ypos +
+                ", shells=" + shells +
+                '}';
+    }
 }

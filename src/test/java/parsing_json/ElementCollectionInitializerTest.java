@@ -1,10 +1,10 @@
 package parsing_json;
 
-import org.junit.Test;
+        import org.junit.Test;
 
-import java.io.IOException;
+        import java.io.IOException;
 
-import static org.junit.Assert.*;
+        import static org.junit.Assert.*;
 
 public class ElementCollectionInitializerTest {
 
