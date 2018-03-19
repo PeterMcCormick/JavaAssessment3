@@ -26,6 +26,7 @@ public class Element {
     private int ypos;
     private ArrayList<Integer> shells;
 
+public Element() {}
 
     public Element(String name, String appearance, double atomic_mass, double boil, String category, String color,
                    double density, String discovered_by, double melt, double molar_heat, String named_by,
