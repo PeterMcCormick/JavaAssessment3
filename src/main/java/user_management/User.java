@@ -36,6 +36,10 @@ public class User {
         this.password = password;
     }
 
+    public User() {
+
+    }
+
     public User(int id , String name, String email, Password password) {
 
         this.email = email;
@@ -75,6 +79,11 @@ public class User {
 
     @Override
     public boolean equals(Object obj) {
-        return false;
+        if((obj == null) || (getClass() != obj.getClass())){
+            return false;
+        } // end if
+        else{
+          return true;
+        }
     }
 }
